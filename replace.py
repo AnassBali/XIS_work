@@ -14,7 +14,7 @@ def replace_commas_with_periods(file_path):
     return '\n'.join(output_lines)
 
 
-input_file_path = 'input.txt' 
+input_file_path = 'replace.txt' 
 output_file_path = os.path.join(os.path.dirname(input_file_path), 'rates.txt')
 modified_content = replace_commas_with_periods(input_file_path)
 
